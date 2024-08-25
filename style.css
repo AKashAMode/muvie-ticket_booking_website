@@ -45,7 +45,6 @@
     right: 20px;
     transform: translateY(-50%);
 
-
 }
 
 
@@ -178,8 +177,6 @@
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
-    
-    
 }
 
 
@@ -302,6 +299,38 @@
 }
 
 
+
+/*small screen mobile device */
+
+@media screen and (min-width:300px) and (max-width:499px) {
+
+
+
+    .header-container{
+
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
+
+   
+    .search-icon{
+        height: 10px;
+
+    }
+
+    .muvie-img{
+        width: 450px;
+        height: 400px;
+        border-radius: 5px;
+    }
+
+    .menu-img{
+        height: 30px;
+    }
+
+
+}
 
 
 
@@ -473,6 +502,10 @@
   }
 
   .about-website{
+    display: none;
+  }
+
+  .select-city{
     display: none;
   }
 
