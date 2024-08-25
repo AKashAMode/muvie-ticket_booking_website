@@ -111,9 +111,7 @@
     width: 100%;
 }
 
-.main-section{
-    height: 100vh;
-}
+
 
 .muvie-city{
     margin-top: 40px;
@@ -164,26 +162,34 @@
     color: #0067f7;
 }
 
+.muvie-content{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 
 .muvie-card{
-    margin: 50px;
     width: fit-content;
-    border: 2px solid #000;
     border: 3px solid #64646b;
     border-radius: 10px;
+    margin-top: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
 }
 
 
 .muvie-card:hover{
-    transform: rotateY(0deg) rotateX(15deg);
+    transform: rotateY(0deg) rotateX(10deg);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
 .muvie-img{
-    width: 300px;
+    width: 100%;
     height: 400px;
+    border-radius: 6px;
 }
 
 .muvie-about{
@@ -212,8 +218,12 @@
     border: 2px solid #000;
     border-radius: 10px;
     font-weight: bold;
-    background: #7ea4da;
+    background: #ffffff;
     cursor: pointer;
+}
+
+.muvie-btn:hover{
+    background: #7ea4da;
 }
 
 .info-img-about{
@@ -226,8 +236,67 @@
     
 }
 
+.info-img-about:hover{
+   
+    background: #7ea4da;
+}
 
+.footer-secton{
+    margin-top: 40px;
+    height: fit-content;
+    background-color: #6482AD;
+}
 
+.website-footer-logo{
+    padding: 10px;
+    width: 100%;
+    background-color: #9eafc4;
+
+}
+
+.footer-logo{
+    text-align: center;
+    font-size: 25px;
+}
+
+.footer-logo-color{
+    color: #ca1515;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.foooter-socialmedia-icon{
+    width: 30px;
+    padding: 5px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+    background-color: #9eafc4;
+}
+
+.copyright-contain{
+    margin-top: 10px;
+}
+
+.copy-para{
+    text-align: center;
+    padding: 3px;
+}
+
+.footer-h3-heading{
+    padding: 10px;
+}
+
+.foot-content{
+    padding: 15px;
+    text-decoration: none;
+    color: #000;
+}
 
 
 
@@ -286,6 +355,42 @@
         display: none;
     }
 
+    .coming-soon-main-container{
+        padding: 8px;
+    }
+
+    .coming-soon{
+        font-size: 15px;
+    }
+
+  .upcoming-muvie{
+    font-size: 15px;
+  }
+
+  .muvie-card{
+    width: 210px;
+
+  }
+
+  .muvie-img{
+    width: 100%;
+    height: 50%;
+
+  }
+
+  .muvie-heading{
+    font-size: 15px;
+  }
+
+  .muvie-type{
+    font-size: 13px;
+  }
+
+  .muvie-btn{
+    width: 65%;
+  }
+
+
 
 }
 
@@ -298,7 +403,6 @@
     .muvie-main-heading{
         font-size: 24px;
     }
-   
 
     .input-search{
         height: 45px;
@@ -336,6 +440,39 @@
     .city-name{
         margin-bottom: 20px;
     }
+
+
+
+    .coming-soon-main-container{
+        padding: 10px;
+    }
+
+    .coming-soon{
+        font-size: 20px;
+    }
+  .upcoming-muvie{
+    font-size: 20px;
+  }
+
+  .muvie-card{
+    width: 250px;
+
+  }
+
+  .muvie-img{
+    width: 100%;
+    height: 50%;
+
+  }
+
+  .muvie-heading{
+    font-size: 17px;
+  }
+
+
+
+
+
 
 }
 
@@ -383,4 +520,5 @@
     .city-name{
         margin-bottom: 25px;
     }
+
 }
