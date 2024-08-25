@@ -176,7 +176,7 @@
 
 
 .muvie-card{
-    width: fit-content;
+    width: 350px;
     border: 3px solid #64646b;
     border-radius: 10px;
     margin-top: 20px;
@@ -201,6 +201,7 @@
 
 .muvie-about{
     padding: 5px;
+    
 }
 
 .muvie-heading{
