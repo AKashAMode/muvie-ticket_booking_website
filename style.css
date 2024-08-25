@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #6482AD;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding: 20px;
+
+}
+
+.cinema-style{
+    color: #ca1515;
+}
+
+.logo-contain{
+    align-content: center;
+
+}
+
+.search-contain{
+  
+    position: relative;
+}
+
+.input-search{
+    height: 50px;
+    width: 48rem;
+    border-radius: 10px;
+    padding: 20px;
+    border: none;
+    
+}
+
+.search-icon{
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+
+
+}
+
+.select-muvie-city{
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.sign-btn{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    color: #000;
+
+
+}
+
+.sign-btn:hover{
+    color: #220909;
+    background-color: #ac9595;
+    font-size: 30px;
+}
+
+.menu-img{
+    height: 50px;
+}
+
+/* sub header */
+
+.sub-header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding: 10px;
+    background-color: #9eafc4;
+}
+
+.muvie-contain{
+    margin-left: 25px;
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+    padding: 10px;
+}
+
+.right-muvie-contain{
+    margin-right: 25px;
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+    padding: 10px;
+}
+
+
+.banner-section{
+    width: 100%;
+
+}
+
+.banner-img{
+    width: 100%;
+}
+
+.main-section{
+    height: 100vh;
+}
+
+.muvie-city{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.city-name{
+    margin-bottom: 35px;
+}
+
+.language-name{
+    margin-top: 10px;
+}
+
+.language{
+    margin-right: 20px;
+    border: 1px solid #000;
+    padding: 8px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+
+.language:hover{
+
+    background-color: #cde2ff;
+    border: 2px solid #000;
+    font-weight: bold;
+}
+
+/* mobile device */
+
+@media screen and (max-width:500px) {
+     
+    .select-city{
+        display: none;
+    }
+
+    .sign-contain{
+        display: none;
+    }
+
+    .input-search{
+        height: 15px;
+        width: 15rem;
+        padding: 18px;
+        
+    }
+
+    .muvie-main-heading{
+        font-size: 19px;
+    }
+
+    .search-icon{
+        height: 20px;
+
+    }
+
+    .menu-img{
+        
+        height: 40px;
+    }
+
+    .sub-header{
+        display: none;
+    }
+
+}
+
+
+/* Tablet device */
+
+@media screen and (min-width:501px) and (max-width: 768px) {
+  
+
+    .muvie-main-heading{
+        font-size: 24px;
+    }
+   
+
+    .input-search{
+        height: 45px;
+        width: 20rem;
+        padding: 18px;
+        
+    }
+
+    .select-muvie-city{
+        height: 45px;
+        width: 100px;
+        border-radius: 10px;
+        padding: 5px;
+    }
+
+    .sign-contain{
+        display: none;
+    }
+
+    .menu-img{
+        
+        height: 45px;
+    }
+
+    .sub-header{
+        display: none;
+    }
+
+}
+
+/* desktop website */
+
+@media screen and (min-width:769px) and (max-width:1069px){
+
+    .input-search{
+        height: 45px;
+        width: 23rem;
+
+    }
+
+    .muvie-main-heading{
+        font-size: 28px;
+    }
+
+    .sign-contain{
+        display: none;
+    }
+
+    .menu-img{
+        
+        height: 45px;
+    }
+
+    .select-muvie-city{
+        height: 45px;
+        width: 95px;
+        border-radius: 10px;
+        padding: 3px;
+    }
+
+    .muvie-contain{
+        font-size: 13px;
+    }
+
+    
+.right-muvie-contain{
+       
+    font-size: 13px;
+
+    }
+}
