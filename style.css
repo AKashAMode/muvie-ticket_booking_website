@@ -165,8 +165,7 @@
 .muvie-content{
     margin-top: 40px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -178,7 +177,7 @@
     margin-top: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    margin-left: 15px;
+
     
     
 }
@@ -529,6 +528,10 @@
 
     .city-name{
         margin-bottom: 25px;
+    }
+
+    .sub-header{
+        display: none;
     }
 
 }
