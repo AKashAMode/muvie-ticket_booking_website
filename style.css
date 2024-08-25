@@ -138,7 +138,6 @@
 .language:hover{
     background-color: #cde2ff;
     border: 2px solid #000;
-    font-weight: bold;
 }
 
 
@@ -165,7 +164,8 @@
 .muvie-content{
     margin-top: 40px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -177,6 +177,8 @@
     margin-top: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-left: 15px;
+    
     
 }
 
@@ -390,6 +392,13 @@
     width: 65%;
   }
 
+  .about-website{
+    display: none;
+  }
+
+  .contact-us-footer{
+    display: none;
+  }
 
 
 }
@@ -469,9 +478,9 @@
     font-size: 17px;
   }
 
-
-
-
+  .about-website{
+    display: none;
+  }
 
 
 }
