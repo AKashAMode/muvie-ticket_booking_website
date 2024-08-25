@@ -15,6 +15,10 @@
 
 }
 
+.muvie-logo{
+    height: 40px;
+}
+
 .cinema-style{
     color: #ca1515;
 }
@@ -302,7 +306,7 @@
 
 /*small screen mobile device */
 
-@media screen and (min-width:300px) and (max-width:499px) {
+@media screen and (min-width:200px) and (max-width:499px) {
 
 
 
@@ -311,7 +315,18 @@
         padding-left: 1px;
         padding-right: 1px;
     }
+   
+    .cinema-style{
+        display: none;
+    }
 
+    .cinema-style-verse{
+        display: none;
+    }
+
+    .muvie-logo{
+        height: 30px;
+    }
 
    
     .search-icon{
@@ -335,11 +350,6 @@
 
 
 
-
-
-
-
-
 /* mobile device */
 
 @media screen and (max-width:500px) {
@@ -350,6 +360,10 @@
 
     .sign-contain{
         display: none;
+    }
+
+    .muvie-logo{
+        height: 35px;
     }
 
     .input-search{
